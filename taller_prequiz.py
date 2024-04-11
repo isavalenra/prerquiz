@@ -10,4 +10,6 @@ b = matriz.copy()
 
 c = b[:,:,:,1]
 print(f'diemsnion:',np.ndim(c)) 
-print(f'')
+print(f'tamaño de la matriz',c.shape)
+print(f'tiene:', c.size)
+print(f'tipo de datos:', c.dtype)
