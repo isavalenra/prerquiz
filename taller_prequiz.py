@@ -13,3 +13,7 @@ print(f'diemsnion:',np.ndim(c))
 print(f'tamaño de la matriz',c.shape)
 print(f'tiene:', c.size)
 print(f'tipo de datos:', c.dtype)
+
+
+t = b[:,:,1,1]
+print(f'dimension2:',np.ndim(t))
